@@ -1,0 +1,20 @@
+{
+  "name": "sap-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resul-elezi/sap-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/resul-elezi/sap-template/issues"
+  },
+  "homepage": "https://github.com/resul-elezi/sap-template#readme"
+}
