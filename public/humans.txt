@@ -1,0 +1,10 @@
+/* TEAM */
+Developer: Resul Elezi
+Site: https://github.com/resul-elezi
+Location: Europe
+
+/* SITE */
+Built with: Astro
+
+/* THANKS */
+Client: Epic ERP Solutions
