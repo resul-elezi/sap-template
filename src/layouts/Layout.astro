@@ -1,4 +1,6 @@
 ---
+import TermsModal from "../components/TermsModal.astro";
+import PrivacyModal from "../components/PrivacyModal.astro";
 import Bubbles from "../components/Bubbles.astro";
 import Gradient from "../components/Gradient.astro";
 import "../styles/global.css";
@@ -21,13 +23,15 @@ import "../styles/global.css";
             name="generator"
             content=`Custom ${Astro.generator} Project by Resul Elezi`
         />
+
         <title>Epic ERP Solutions</title>
     </head>
     <body>
         <slot />
-        <!-- <TermsModal /> -->
-        <!-- <PrivacyModal /> -->
+        <TermsModal />
+        <PrivacyModal />
         <Bubbles />
         <Gradient />
     </body>
+    <script type="module" src="/src/scripts/overlay.js"></script>
 </html>
