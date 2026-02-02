@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
+import sitemap from '@astrojs/sitemap'
 
 // https://astro.build/config
 export default defineConfig({
@@ -12,5 +13,7 @@ export default defineConfig({
             ".trycloudflare.com",
             ".ngrok-free.app"
         ]
-    }
+    },
+    site: 'https://www.epicerpsolutions.com',
+    integrations: [sitemap()],
 });
